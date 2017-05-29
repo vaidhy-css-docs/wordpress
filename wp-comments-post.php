@@ -48,7 +48,7 @@ $location = empty( $_POST['redirect_to'] ) ? get_comment_link( $comment ) : $_PO
 
 /**
  * Filters the location URI to send the commenter after posting.
- * New comnment tttttttt
+ * New comnment tttttttt0000000000000
  *
  * @since 2.0.5
  *
