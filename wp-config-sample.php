@@ -31,19 +31,6 @@ define('DB_PASSWORD', '#DB_PASSWORD#');
 
 /** MySQL hostname */
 define('DB_HOST', '#DB_HOST#');
-=======
-define('DB_NAME', 'database_name_here');
-
-/** MySQL database username */
-define('DB_USER', 'username_here');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'password_here');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
->>>>>>> 9b15267208397fe29266d1902cd9d8bc74c16a86
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
