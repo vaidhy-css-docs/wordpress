@@ -20,17 +20,17 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-<<<<<<< HEAD
 define('DB_NAME', 'demo_database');
 
 /** MySQL database username */
-define('DB_USER', '#DB_USER#');
+define('DB_USER', 'DBUSER');
 
 /** MySQL database password */
-define('DB_PASSWORD', '#DB_PASSWORD#');
+define('DB_PASSWORD', 'DBPASSWORD');
 
 /** MySQL hostname */
-define('DB_HOST', '#DB_HOST#');
+define('DB_HOST', 'HOST');
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
@@ -83,15 +83,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-<<<<<<< HEAD
-        define('ABSPATH', dirname(__FILE__) . '/');
-
-/** Sets up WordPress vars and included files. */
-require_once(ABSPATH . 'wp-settings.php');
-
-=======
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
->>>>>>> 9b15267208397fe29266d1902cd9d8bc74c16a86
