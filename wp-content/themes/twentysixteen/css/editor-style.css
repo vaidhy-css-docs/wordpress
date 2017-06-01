@@ -20,10 +20,11 @@ Description: Used to style the TinyMCE editor.
 
 /**
  * 1.0 - Body
+ * color: #1a1a1a;
  */
 
 body {
-	color: #1a1a1a;
+	color: orange;
 	font-family: Merriweather, Georgia, serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -110,7 +111,7 @@ i {
 }
 
 blockquote {
-	border-left: 4px solid #1a1a1a;
+	border-left: 4px solid orange;
 	color: #686868;
 	font-size: 19px;
 	font-style: italic;
